@@ -1,4 +1,4 @@
-Quick links: [Class Preparation]() | [Day One](#day-one-in-class-materials) | [Day Two](#day-two-in-class-materials) 
+Quick links: [Class Preparation](#class-preparation) | [Day One](#day-one-in-class-materials) | [Day Two](#day-two-in-class-materials) 
 
 ## Experiments on the Embodied Web 
 
@@ -40,7 +40,9 @@ This course will be offered entirely in person. If you need special accomodation
 
 If you find yourself struggling, remember that you have many forms of support that you can take advantage of at ITP. Look out for the [office hours and help sessions that the residents offer](https://itp.nyu.edu/residents/contact-the-residents/). 
 
-## Required tools for class 
+## Class Preparation 
+
+### Required tools for class 
 
 We will be coding using p5 and three.js. If you'd like to follow along in class please make sure you have a code editor and terminal available. I will be using the following tools in class 
 
@@ -50,7 +52,7 @@ We will be coding using p5 and three.js. If you'd like to follow along in class 
 - [iTerm](https://iterm2.com/)
 - Please also bring laptop, headphones, some paper, and a pen or pencil to class
 
-## Required reading for class ! Complete before the first class! 
+### Required reading for class ! Complete before the first class! 
 
 Please read the following readings before coming to class. It is only six pages of reading in total, but it is a bit thick. Give yourself some time to read and digest. We'll be discussing the materials at the top of our first class, and I'll be looking forward to hearing your thoughts. 
 
