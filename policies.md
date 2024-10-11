@@ -29,7 +29,7 @@ ITP/IMA is committed to facilitating the fullest possible participation of all s
 ## MAKEUP WORK POLICY
 If you miss more than 50% of class sessions, it will result in an automatic F for the course. So if you miss one day of the course you will recieve an F. Please discuss making up work with Lisa if needed, however, make up opportunities are not gauranteed and it is prpreferred that all students attend the full weekend course as scheduled. 
 
-AI STATEMENT
+## AI STATEMENT
 You should treat AI tools just as you would any other source: cite the source and note how it was used (Harvard has a useful guide to citation of AIs). You should be prepared to explain how your use of it is the appropriate tool to fit your goal or concept and does not detract from your experience meeting the learning objectives of the assignment or course. There are some cases where the use of AI may fall under a form of plagiarism. Differentiate your work from your source’s work in a way that's clear to the reader or viewer. Additionally, you should be prepared to discuss the ethical concerns around the widespread use of emerging AI tools. 
 
 ## ATTENDANCE POLICY
@@ -38,7 +38,6 @@ After the first two weeks of the add/drop period, effective in week three onward
 1 unit - 0 absences
 
 There are no excused absences and unexcused absences. There are only absences. Any absences will affect your grade. Late arrivals (more than 10 minutes after start time) will count as absence. 
-course 
 
 ## STATEMENT OF ACADEMIC INTEGRITY
 Plagiarism is presenting someone else’s work as though it were your own. More specifically, plagiarism is to present as your own: A sequence of words quoted without quotation marks from another writer or a paraphrased passage from another writer’s work or facts, ideas or images composed by someone else. 
