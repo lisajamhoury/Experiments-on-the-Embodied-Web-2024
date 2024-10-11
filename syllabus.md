@@ -1,8 +1,7 @@
 Quick links: [Class Preparation]() | [Day One](#day-one-in-class-materials) | [Day Two](#day-two-in-class-materials) 
 
-## Course Title 
+## Experiments on the Embodied Web 
 
-Experiments on the Embodied Web 
 
 New York University  
 Tisch School of the Arts  
