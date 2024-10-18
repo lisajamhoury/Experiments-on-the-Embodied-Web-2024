@@ -2,7 +2,6 @@ Quick links: [Class Preparation](#class-preparation) | [Day One](#day-one-in-cla
 
 ## Experiments on the Embodied Web 
 
-
 New York University  
 Tisch School of the Arts  
 ITPG-GT 3013 - 001  
@@ -21,8 +20,8 @@ Email: lisa.jamhoury@nyu.edu
 ## Course Objectives
 At the completion of this course, the student will be able to:
 
-- Introduction to motion capture and other body sensing technology and theory 
-- Introductory creative coding examples for representing the body and body movement in web frameworks. 
+- Think critically about the role of the physical body in web environments
+- Better understand motion capture and how the body is represented digitally 
 
 ## Course Description
 
@@ -62,41 +61,92 @@ Please read the following readings before coming to class. It is only six pages 
 - [The Extended Mind: The Power of Thinking Outside the Brain](https://drive.google.com/file/d/1aN4eHnycAdRNbcw_qE5w3I9PfP2-yqf-/view?usp=drive_link) Pages 1-2. 
 - Exercise: While reading highlight the lines that stand out to you. For each reading, pick JUST ONE SENTENCE from EACH reading (3 sentences total, one from each reading) Place the 3 sentences in [this Google Doc](https://docs.google.com/document/d/1WFhy2c2t_jvf7b-erPVCgwRNSDOiHz5zzDP4Dd4VOY4/edit?usp=sharing) along with your first and last name. Requires NYU Login to access doc. Must be completed before class begins.
 
-## Day One In Class Materials 
+## Day One In Class Materials
+
+### Rough Schedule 
+
+11:40 - 1:35pm — Syllabus, Intros, Theory  
+ 1:35 - 1:50pm — Break 1 (15 minute)  
+ 1:50 - 3:45pm — Code   
+ 3:45 - 4:15pm — Break 2 (30 minute)  
+ 4:15 - 6:10pm — Practice   
+
 
 ### Theory 
 
 - Discussion Topic: What is a body? Should it be online? Why? How? 
-- Discussion of homework readings (independent and group activity)
-- Mocap history, forms, body politics [Google Slides](https://docs.google.com/presentation/d/1qgpGtGiLlRR9DyI5A3oMUjLAOiqBMJOShj-jgAmCoL4/edit?usp=sharing)
+- Discussion of homework readings 
+- Independent and group activity, [Group Activity Board](https://docs.google.com/presentation/d/1rfqIA6Xt9TIUAlnKEouHUfaCz-RMQv6XuWOljKEdzjg/edit?usp=sharing)
+- Mocap history, forms, body politics, [Google Slides](https://docs.google.com/presentation/d/1qgpGtGiLlRR9DyI5A3oMUjLAOiqBMJOShj-jgAmCoL4/edit?usp=sharing)
 
 ### Code
 
 - Computer vision: how does the computer see the body
-- Understanding buffers and keypoints 
+- Understanding framebuffers and keypoints 
+
+#### Examples 
+
+- Coming soon 
+
+#### Resources
+
+- [Cat image](examples/assets/cat.jpg)
+- [BodyPose](https://docs.ml5js.org/#/reference/bodypose)
+- [Keypoint smoothing](https://javascript.plainenglish.io/simple-smoothing-for-posenet-keypoints-cd1bc57f5872)
+- [Keypoint smoothing example](https://editor.p5js.org/lisajamhoury/sketches/oB3r4UNOT)
 
 ### Practice 
 
-- Create a rough prototype of a single-person experience that takes into account form and quality of movement. The experience must have a clear stated goal. Before you begin building write out the answers to the following questions 
+- Create a rough prototype of a single-person experience that takes into account form and quality of movement. The experience should have a clear goal. Before you begin building discuss the following with your partner: 
 1. how do you want the participant to feel / move / etc?
 2. how can you acheive this through design and code?
 
 ## Day Two In Class Materials 
 
+### Rough Schedule 
+
+12:10 - 1:55pm — Theory  
+ 1:55 - 2:10pm — Break 1 (15 minute)  
+ 2:10 - 3:55pm — Code 1  
+ 3:55 - 4:25pm — Break 2 (30 minute)  
+ 4:25 - 6:10pm — Code 2 and/or Practice    
+
 ### Theory 
 
-- Embodied interaction in the "third space" [Google Slides](https://docs.google.com/presentation/d/1sJ4Vd6ZlwUMPAeQ3eFfkatguL00LWJLsXO679xzlBXY/edit?usp=sharing)  
+- Embodied interaction in the "third space" [Google Slides](https://docs.google.com/presentation/d/1sJ4Vd6ZlwUMPAeQ3eFfkatguL00LWJLsXO679xzlBXY/edit?usp=sharing) 
+- [Group Activity Board](https://docs.google.com/presentation/d/1rfqIA6Xt9TIUAlnKEouHUfaCz-RMQv6XuWOljKEdzjg/edit?usp=sharing) 
 
 ### Code
 
 - Peer to peer
 - Kinectron, Kinect over peer
 
+#### Examples 
+
+- Coming soon 
+
+#### Additional Examples 
+
+- [Kinectron Feed Test, Azure](/examples/other/01-kinectron-feed-test/) 
+- [Kinectron Three.js Ribbons](/examples/other/02-kinectron-3js-ribbons/) 
+- [Kinectron Three.js Pointcloud](/examples/other/03-kinectron-3js-pointcloud/) 
+
+#### Resources 
+
+- [ml5 BodyPose](https://docs.ml5js.org/#/reference/bodypose)
+- [p5LiveMedia](https://github.com/vanevery/p5LiveMedia?tab=readme-ov-file)
+- [HSB to RGB](https://stackoverflow.com/questions/17242144/javascript-convert-hsb-hsv-color-to-rgb-accurately/54024653)
+- [Kinectron](https://kinectron.github.io/)
+- [Kinectron Server Version 0.3.9](https://github.com/kinectron/kinectron/releases/tag/0.3.9)
+
+
 ### Practice 
 
-- Create a rough prototype for two or more people that requires some type of interaction between the participants. Before you begin building write out the answers to the following questions:  
-1. What is the interaction you are trying to create? How do you want the participants to feel / move / etc? 
-2. How can you acheive this through design and code?
+Create a rough prototype for two or more people that requires some type of interaction between two bodies. Can you interact without using your hands? Before you begin building consider the following questions:
+
+1. What is the interaction you are trying to create? How do you want the participants to feel / move / etc?
+2. How can you achieve this through design and code?
+
 
 ## More resources 
 
@@ -111,12 +161,9 @@ Please read the following readings before coming to class. It is only six pages 
 - [Lingdong Huang Mediapipe Demos](https://github.com/LingDong-/handpose-facemesh-demos)
 - [Pose Animator: SVG Characters with Posenet](https://blog.tensorflow.org/2020/05/pose-animator-open-source-tool-to-bring-svg-characters-to-life.html)
 - [clmtrackr](https://github.com/auduno/clmtrackr) | [Live example from Kyle McDonald](https://kylemcdonald.github.io/cv-examples/FaceTracking/)
-- [Posenet Documentation](https://github.com/tensorflow/tfjs-models/tree/master/posenet)
 - [tfjs face landmarks documentation](https://github.com/tensorflow/tfjs-models/tree/master/face-landmarks-detection)
 - [ml5js.org](https://ml5js.org/)
 - Coding Train ml5.js: Pose Estimation with PoseNet: [7.1](https://thecodingtrain.com/learning/ml5/7.1-posenet.html) | [7.2](https://thecodingtrain.com/learning/ml5/7.2-pose-classifier.html) | [7.3](https://thecodingtrain.com/learning/ml5/7.3-pose-regression.html)
-- [Digital Dance Party by Daniel Jorssen](https://www.instagram.com/p/CASdHnMBRFt/)
-- [Me and My Shadows by Ghislaine Boddington](http://www.bodydataspace.net/projects/meandmyshadow/)
 - [Tips to improve your generative artwork](https://tylerxhobbs.com/essays/2018/tips-to-improve-your-generative-artwork)
 
 ### Helpful Links, Resources, Inspo — Day 2
@@ -130,7 +177,7 @@ Please read the following readings before coming to class. It is only six pages 
 
 #### Kinectron
 - [Kinectron](https://kinectron.github.io/)
-- [Kinectron Server Version 0.3.7](https://github.com/kinectron/kinectron/releases/tag/0.3.7)
+- [Kinectron Server Version 0.3.9](https://github.com/kinectron/kinectron/releases/tag/0.3.9)
 - [Kinectron Bootcamp Install by Jake Sherwood](https://jakesherwood.com/blog/body_ewah/kinectron-install)
 - [Coding Train: Kinectron](https://www.youtube.com/watch?v=BV6xK3EOznI)
 - [More Kinectron Examples](https://kinectron.github.io/docs/example-simple-skeleton.html) | Includes [Skeleton Example](https://kinectron.github.io/docs/example-skeleton-images-windows.html) 
@@ -144,8 +191,6 @@ Please read the following readings before coming to class. It is only six pages 
 - [Kinect 2 Node Module](https://github.com/wouterverweirder/kinect2)
 - [Azure Kinect Node Module](https://github.com/wouterverweirder/kinect-azure)
 - [depth2web](https://github.com/js6450/depth2web)
-
-
 
 ### Further Reading 
 - [Artificial Reality by Myron Krueger, pages 91-99](https://github.com/lisajamhoury/The-Body-Everywhere-and-Here-2021/blob/main/readings/artificial_reality_5.pdf)
