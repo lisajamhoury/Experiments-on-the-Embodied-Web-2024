@@ -114,6 +114,7 @@ Please read the following readings before coming to class. It is only six pages 
 ### Theory 
 
 - Embodied interaction in the "third space" [Google Slides](https://docs.google.com/presentation/d/1sJ4Vd6ZlwUMPAeQ3eFfkatguL00LWJLsXO679xzlBXY/edit?usp=sharing) 
+- Closer Reading [pdf](https://github.com/lisajamhoury/The-Body-Everywhere-and-Here-2021/blob/main/readings/closer_2.pdf) | [audio file](https://github.com/lisajamhoury/Experiments-on-the-Embodied-Web-2024/tree/main/media)
 - [Group Activity Board](https://docs.google.com/presentation/d/1rfqIA6Xt9TIUAlnKEouHUfaCz-RMQv6XuWOljKEdzjg/edit?usp=sharing) 
 
 ### Code
