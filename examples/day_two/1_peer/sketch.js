@@ -31,12 +31,9 @@ function draw() {
   }
 
   for (let i =0; i < myPose.length; i++) { 
-
     let keypoint = myPose[i];
-
     fill(255,0,0);
     ellipse(keypoint.x, keypoint.y,50,50);
-
   }
 
 
@@ -46,18 +43,17 @@ function draw() {
   }
 
   for (let i =0; i < friendPose.length; i++) { 
-
     let keypoint = friendPose[i];
-
     fill(0,255,0);
     ellipse(keypoint.x, keypoint.y,30,30);
-
   }
-    
-
 }
 
 function gotPoses(results) { 
+  if (results.length < 1) { 
+    console.log('waiting for keypoints');
+    return;
+  }
   myPose = results[0].keypoints;
   
   p5lm.send(JSON.stringify(myPose));
