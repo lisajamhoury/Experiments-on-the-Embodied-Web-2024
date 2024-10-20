@@ -2,8 +2,6 @@ let myVid;
 let bodyPose;
 let poses = [];
 
-let pointsCreated = false; 
-
 const numFrames = 150;
 const numKeyPoints = 17;
 let pastPoses = [];
