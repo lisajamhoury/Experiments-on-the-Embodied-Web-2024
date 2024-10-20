@@ -18,7 +18,7 @@ let kinectron = null;
 // we put as example here "1.2.3.4"
 // replace it with the kinectron server ip address
 // remember to keep the double quotes
-const kinectronServerIPAddress = '10.0.1.135';
+const kinectronServerIPAddress = '10.18.181.149';
 
 // declare new HTML elements for displaying text
 let textKinectronServerIP;

@@ -157,7 +157,7 @@ function prepareMesh(colorIndex) {
 
 function initKinectron() {
   // Create kinectron with specified ip address
-  const kinectron = new Kinectron("10.0.1.135");
+  const kinectron = new Kinectron("10.18.181.149");
   // Choose kinect type
   kinectron.setKinectType("azure");
   // Connect to the server

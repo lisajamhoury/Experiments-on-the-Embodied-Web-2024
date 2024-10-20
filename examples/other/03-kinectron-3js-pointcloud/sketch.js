@@ -27,7 +27,7 @@ let colors = [];
 function initKinectron() {
   // Replace the ip address with the kinectron server ip address
   // remember to keep the '' quotes
-  const kinectronServerIPAddress = "10.0.1.135"; // FILL IN YOUR KINECTRON IP ADDRESS HERE
+  const kinectronServerIPAddress = "10.18.181.149"; // FILL IN YOUR KINECTRON IP ADDRESS HERE
 
   // Create an instance of Kinectron
   kinectron = new Kinectron(kinectronServerIPAddress);
