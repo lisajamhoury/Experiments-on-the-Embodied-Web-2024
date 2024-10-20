@@ -86,7 +86,7 @@ Please read the following readings before coming to class. It is only six pages 
 
 #### Examples 
 
-- - [Examples](/examples/day_one/)
+- [Examples](/examples/day_one/)
 
 #### Resources
 
@@ -192,6 +192,7 @@ Create a rough prototype for two or more people that requires some type of inter
 - [Kinect 2 Node Module](https://github.com/wouterverweirder/kinect2)
 - [Azure Kinect Node Module](https://github.com/wouterverweirder/kinect-azure)
 - [depth2web](https://github.com/js6450/depth2web)
+- [Olos template](https://github.com/lisajamhoury/olos-template) 
 
 ### Further Reading 
 - [Artificial Reality by Myron Krueger, pages 91-99](https://github.com/lisajamhoury/The-Body-Everywhere-and-Here-2021/blob/main/readings/artificial_reality_5.pdf)
