@@ -86,7 +86,7 @@ Please read the following readings before coming to class. It is only six pages 
 
 #### Examples 
 
-- Coming soon 
+- - [Examples](/examples/day_one/)
 
 #### Resources
 
@@ -124,7 +124,7 @@ Please read the following readings before coming to class. It is only six pages 
 
 #### Examples 
 
-- Coming soon 
+- [Examples](/examples/day_two/)
 
 #### Additional Examples 
 
