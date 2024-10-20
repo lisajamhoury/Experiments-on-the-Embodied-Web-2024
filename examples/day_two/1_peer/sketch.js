@@ -1,7 +1,7 @@
 let p5lm;
 let bodyPose;
-let friendNose = {x: 0, y:0};
-let myNose = {x:0, y:0};
+let myPose = [];
+let friendPose = [];
 
 let myVideo;
 
@@ -13,6 +13,7 @@ function setup() {
   createCanvas(640, 480);
   myVideo = createCapture(VIDEO);
   myVideo.size(640,480);
+  myVideo.hide();
 
   bodyPose.detectStart(myVideo, gotPoses);
 
@@ -24,25 +25,44 @@ function setup() {
 function draw() {
   background(220);
 
-  fill(255,0,0);
-  ellipse(myNose.x, myNose.y, 50,50);
+  if (myPose.length < 1) {
+    console.log('waiting for pose');
+    return;
+  }
 
-  fill(0,255,0);
-  ellipse(friendNose.x, friendNose.y, 30,30);
+  for (let i =0; i < myPose.length; i++) { 
+
+    let keypoint = myPose[i];
+
+    fill(255,0,0);
+    ellipse(keypoint.x, keypoint.y,50,50);
+
+  }
+
+
+  if (friendPose.length < 1) {
+    console.log('waiting for pose');
+    return;
+  }
+
+  for (let i =0; i < friendPose.length; i++) { 
+
+    let keypoint = friendPose[i];
+
+    fill(0,255,0);
+    ellipse(keypoint.x, keypoint.y,30,30);
+
+  }
+    
+
 }
 
 function gotPoses(results) { 
-  myNose.x = results[0].nose.x;
-  myNose.y = results[0].nose.y;
-
-  let dataToSend = {x:myNose.x, y: myNose.y};
-  p5lm.send(JSON.stringify(dataToSend));
+  myPose = results[0].keypoints;
+  
+  p5lm.send(JSON.stringify(myPose));
 }
 
 function gotData(data, id) { 
-  let newNose = JSON.parse(data);
-
-  friendNose.x = newNose.x;
-  friendNose.y = newNose.y;
-  
+  friendPose = JSON.parse(data);
 }
